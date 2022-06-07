@@ -92,7 +92,7 @@ class Otomobil:public 	MotorluTasit{
     void setyolcu(int yolcu){
         this->yolcu=yolcu;
     }
-    void sethiz(){
+    void sethiz(double hiz){
         this->hiz=hiz;
     }
     
@@ -124,7 +124,7 @@ class Otomobil:public 	MotorluTasit{
         
         return t1;
     }
-     	MotorluTasit MotorluTasitOlustur{
+     	MotorluTasit MotorluTasitOlustur(){
         MotorluTasit m1;
         cout<<"Motorlu tasit icin marka, model yili, teker sayisi, model ve motor gucu girin:"<<endl;
         string marka;
